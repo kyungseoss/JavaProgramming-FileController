@@ -92,7 +92,7 @@ public class FileController {
 					try {
 						fw = new FileWriter(fileName);
 						fw.write(data);
-                        fw.close();
+                        			fw.close();
 					}catch(Exception e) {
 						e.printStackTrace();
 					}
@@ -127,7 +127,7 @@ public class FileController {
 							vector[i] = Integer.parseInt(temp[i]);
 						}
 						fr.close();
-                        br.close();
+                        			br.close();
 					}catch(Exception e) {
 						e.printStackTrace();
 					}
